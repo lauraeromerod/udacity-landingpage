@@ -1,0 +1,13 @@
+main {
+  margin: 10vh 1em 10vh;
+}
+
+.main-hero {
+  min-height: 40vh;
+  padding-top: 3em;
+}
+
+section {
+  position: relative;
+  min-height: 50vh;
+}

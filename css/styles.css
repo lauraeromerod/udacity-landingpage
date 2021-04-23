@@ -1,0 +1,16 @@
+/* CSS written based on SMACSS architecture.
+ * To learn more, visit: http://smacss.com/
+ * 
+ * For simplicity, no reset or normalize is added. 
+ * To learn more, visit: https://css-tricks.com/reboot-resets-reasoning/ 
+ */
+
+/* ---- Base Rules ---- */
+
+@import "./_base.css";
+@import "./_typography.css";
+@import "./_layout.css";
+@import "./_header.css";
+@import "./_navigation.css";
+@import "./_sections.css";
+@import "./_footer.css";

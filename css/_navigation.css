@@ -1,0 +1,85 @@
+.navbar__menu ul {
+  padding-left: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.navbar__menu li {
+  display: inline-block;
+}
+
+.navbar__menu .menu__link {
+  display: block;
+  padding: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar__menu .menu__link:hover {
+  background: #333;
+  color: #fff;
+  transition: ease 0.3s all;
+}
+
+.navLink {
+  margin: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  cursor: url(../assets/favicon/diamond.png), auto;
+}
+
+.navLink.active {
+  color: #fff;
+  background: #000;
+  padding: 5px;
+}
+
+.navLink:active {
+  color: #000;
+}
+
+.navLink:hover {
+  background-color: #f1dfd1;
+  background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+  padding: 5px;
+}
+
+.back-to-top {
+  font-family: "Megrim", cursive;
+  font-size: 1.5em;
+  bottom: 5px;
+  right: 20px;
+  z-index: 9999;
+  position: fixed;
+  background-color: #cdedfd;
+  background-image: linear-gradient(
+    319deg,
+    #cdedfd 0%,
+    #ffec82 37%,
+    #ffcfd2 100%
+  );
+  border: none;
+  appearance: none;
+  display: none;
+  cursor: url(../assets/favicon/dinosaur.png), auto;
+}
+
+.back-to-top.active {
+  display: block;
+}
+
+.back-to-top:hover {
+  background-color: #bbff99;
+  background-image: linear-gradient(
+    319deg,
+    #bbff99 0%,
+    #ffec99 37%,
+    #ff9999 100%
+  );
+}
+
+.back-to-top:focus {
+  outline: 1px solid #f9d976;
+}
