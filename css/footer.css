@@ -1,7 +1,7 @@
 .page__footer {
   background-color: #f6f0c4;
   background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%);
-  padding: 3em;
+  padding: 3rem;
 }
 
 .page__footer p {

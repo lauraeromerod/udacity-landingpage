@@ -1,0 +1,76 @@
+@media only screen and (max-width: 44rem) {
+  h1 {
+    font-size: 6rem;
+    margin: 14rem 3rem;
+  }
+
+  .landing__container {
+    padding: 3rem;
+  }
+
+  .back-to-top {
+    font-size: 1.3rem;
+    bottom: 0.1875rem;
+    right: 0.625rem;
+  }
+}
+
+@media only screen and (max-width: 35rem) {
+  h1 {
+    font-size: 5rem;
+    margin: 7rem 1rem;
+  }
+
+  .landing__container {
+    padding: 1rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .navLink {
+    margin: 0.625rem;
+  }
+
+  .back-to-top {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 29rem) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  li {
+    font-size: 0.9rem;
+  }
+
+  .navLink {
+    margin: 0.625rem 0.125rem;
+  }
+
+  .page__footer {
+    padding: 2rem;
+  }
+
+  .navbar__menu ul {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 24rem) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .section-expand {
+    font-size: 2.5rem;
+  }
+
+  section p {
+    font-size: 0.9rem;
+  }
+
+  .page__footer {
+    padding: 1rem;
+  }
+}

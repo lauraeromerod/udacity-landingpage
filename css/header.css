@@ -5,8 +5,12 @@
   width: 100%;
   z-index: 5;
   left: 0;
+  transition: all linear 0.3s;
 }
 
 .page__header.hidden {
-  display: none;
+  top: -3.125rem;
+  opacity: 0;
+  cursor: none;
+  visibility: hidden;
 }

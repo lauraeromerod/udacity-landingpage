@@ -8,49 +8,36 @@
   display: inline-block;
 }
 
-.navbar__menu .menu__link {
-  display: block;
-  padding: 1em;
-  font-weight: bold;
-  text-decoration: none;
-  color: #000;
-}
-
-.navbar__menu .menu__link:hover {
-  background: #333;
-  color: #fff;
-  transition: ease 0.3s all;
-}
-
 .navLink {
-  margin: 10px 20px;
+  color: #000;
+  margin: 0.625rem 1.25rem;
   text-decoration: none;
   display: inline-block;
-  padding: 5px;
+  padding: 0.3125rem;
   cursor: url(../assets/favicon/diamond.png), auto;
+}
+
+.navLink:hover {
+  background-color: #fff293;
+  background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
+  padding: 0.3125rem;
 }
 
 .navLink.active {
   color: #fff;
   background: #000;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
 .navLink:active {
   color: #000;
 }
 
-.navLink:hover {
-  background-color: #f1dfd1;
-  background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
-  padding: 5px;
-}
-
 .back-to-top {
   font-family: "Megrim", cursive;
-  font-size: 1.5em;
-  bottom: 5px;
-  right: 20px;
+  font-size: 1.5rem;
+  bottom: 0.3125rem;
+  right: 1.25rem;
   z-index: 9999;
   position: fixed;
   background-color: #cdedfd;
@@ -81,5 +68,5 @@
 }
 
 .back-to-top:focus {
-  outline: 1px solid #f9d976;
+  outline: 0.0625rem solid #fabc3c;
 }

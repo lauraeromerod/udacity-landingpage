@@ -1,10 +1,10 @@
 main {
-  margin: 10vh 1em 10vh;
+  margin: 10vh 1rem 10vh;
 }
 
 .main-hero {
   min-height: 40vh;
-  padding-top: 3em;
+  padding-top: 3rem;
 }
 
 section {
